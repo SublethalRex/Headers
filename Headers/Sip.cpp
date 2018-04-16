@@ -17,3 +17,12 @@ std::string hear(std::string PromptUser) {
 	return UserInput;
 
 }
+
+int hearnum(int PromptUser) { //thought this would work but apparntly not
+
+	int UserInput = 0;
+	cout << PromptUser << endl;
+	cin >> UserInput;
+	return UserInput;
+
+}
